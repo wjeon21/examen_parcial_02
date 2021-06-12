@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+
+/* 
+font-family: 'Staatliches', cursive;
+https://fonts.google.com/specimen/Londrina+Solid?category=Sans+Serif,Display,Monospace&preview.text=Pringles&preview.text_type=custom
+
+color
+morado #683180
+rosado #EA3B53
+
+efectos
+https://plantillashtmlgratis.com/categoria/efectos-css/botones-css-efecto-hover/
+*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+footer {
+    position: relative;
+    text-align: end;
+    color: white;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+body {
+    background-color: #EA3B53;
+    width: 100%;
+    height: 100%;
+    font-family: 'Koho', sans-serif;
+}
+.shape {
+    position: fixed;
+    width:  80%;
+    height: 100%;
+    background: #000;
+    -webkit-clip-path: circle(100% at left);
+   /* clip-path: circle(100%); 
+    /*-webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 70% 50%, 100% 100%, 0% 100%);*/
+}
+/*logo puntos*/
+.logo {
+    position: absolute;
+    margin-left: 20px;
+    top: 20px;
+}
+.logo figure a img {
+    width: 15%;
+}
+.logo figure a img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(-1);
+    transform: scale(-1);
+}
+/*boton menu*/
+.boton {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 40%;
+    z-index: 10000;
+}
+.boton a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    border: solid 3px #683180;
+    border-radius: 50px;
+    padding: 8px 50px;
+    cursor: pointer;
+}
+.boton a:hover {
+    background-color: #683180;
+    color: rgb(245, 213, 247);
+    padding: 10px 54px;
+}
+/*menu bar*/
+#miMenu {
+    position: relative;
+    margin-top: 20%;
+    margin-left: 20px;
+}
+#miMenu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#miMenu ul li {
+    padding-bottom: 50px;
+    list-style: none;
+}
+#miMenu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+}
+#miMenu ul li a:hover {
+    border: solid 2px #683180;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: rgb(245, 213, 247);
+}
+/*logo principal*/
+#principal {
+    z-index: -1;
+}
+#principal figure img {
+    width: 75%;
+}
+section #principal figure {
+    position: absolute;
+    margin-left: 14%;
+    top: 10%;
+}
+/*rollo gigante*/
+#principal2 {
+    z-index: -1;
+}
+section #principal2 figure img {
+    width: 95%;
+}
+#principal2 figure {
+    position: absolute;
+    top: 50%;
+    margin-left: 17%;
+}
+.btnToggle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50px;
+    top: 90%;
+    color: #FFFF; 
+    cursor: pointer;
+}
+.btnToggle:hover {
+    color: #683180;
+    font-size: 18px;
+}
+.scroll article {
+    margin-left: 70%;
+}
+.scroll article figure img {
+    width: 90%;
+    padding-bottom: 40px;
+}
+.scroll article figure img:hover {
+    width: 95%;
+    transition: .5s ease-out;
+}
+/*redes*/
+.iconos {
+    z-index: 10000;
+}
+.iconos ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 75%;
+    top: 78%;
+}
+.iconos ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.iconos ul li a {
+    color: white;
+    cursor: pointer;
+
+    /*padding: 1em
+    background color: morado
+    border radius: 50%*/
+}
+.iconos ul li:nth-child(1){
+    margin-left: 140%;
+}
+.iconos ul li:nth-child(2){
+    margin-left: 100%;
+}
+.iconos ul li:nth-child(3){
+    margin-left: 60%;
+}
+.iconos ul li a i:hover {
+    color: #EA3B53;
+}
+    

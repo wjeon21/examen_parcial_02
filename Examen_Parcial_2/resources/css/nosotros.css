@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    font-family: 'Koho', sans-serif;
+}
+.shape2 {
+    position: fixed; 
+    width:  30%;
+    height: 100%;
+    background: #683180;
+    -webkit-clip-path: circle(50% at left);
+    /*clip-path: circle(50%);
+    /*-webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 70% 50%, 100% 100%, 0% 100%);*/
+}
+/*logo puntos*/
+.logo2 {
+    position: absolute;
+    margin-left: 20px;
+    top: 15%;
+}
+.logo2 figure a img {
+    width: 30%;
+}
+.logo2 figure a img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(-1);
+    transform: scale(-1);
+}
+/*barra menu*/
+#miMenu2 {
+    position: relative;
+    margin-top: 55%;
+    margin-left: 20px;
+}
+#miMenu2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#miMenu2 ul li {
+    padding-bottom: 50px;
+    list-style: none;
+}
+#miMenu2 ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+}
+#miMenu2 ul li a:hover {
+    border: solid 2px #EA3850;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: rgb(245, 213, 247);
+}
+.btnToggle2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50px;
+    top: 80%;
+    color: #FFFF; 
+    cursor: pointer;
+}
+.btnToggle2:hover {
+    color: #EA3850;
+    font-size: 18px;
+}
+/*Primer contenido historia*/
+.contenido1 {
+    position: relative;
+}
+#info .contenido3 {
+    position: relative;
+    margin-top: 50px;
+}
+#info .contenido4 {
+    position: relative;
+    margin-top: 50px;
+}
+.title1 {
+    position: absolute;
+    margin-left: 23%;
+    text-align: center;
+    margin-top: 3%;
+}
+.title1 h2 {
+    font-size: 35px;
+    color: #EA3850;
+    margin: 20px;
+    margin-top: 15%;
+}
+.title2 {
+    position: absolute;
+    text-align: center;
+    font-size: 38px;
+    color: #EA3850;
+    margin: 20px;
+    margin-left: 40%;
+    margin-top: 65%;
+}
+.title3 {
+    position: absolute;
+    text-align: center;
+    font-size: 38px;
+    color: #683180;
+    margin: 20px;
+    margin-left: 76%;
+    margin-top: 65%;
+}
+.circle1 {
+    position: absolute;
+    background-color: rgb(253, 252, 252);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.circle2 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 82%;
+    background-color: #683180;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.circle3 {
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 35%;
+    background-color: #EA3850;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.circle4 {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 25%;
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.circle5 {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 70%;
+    background-color: #EA3850;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.circle6 {
+    position: absolute;
+    margin-top: 62%;
+    margin-left: 35%;
+    background-color: #683180;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.circle7 {
+    position: absolute;
+    margin-top: 62%;
+    margin-left: 70%;
+    background-color: #EA3850;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    z-index: -1;
+}
+article .texto1 {
+    position: absolute;
+    color: white;
+    margin-left: 40%;
+    margin-top: 10%;
+    text-align: justify;
+}
+article .texto2 {
+    position: absolute;
+    color: white;
+    margin-left: 33%;
+    margin-top: 27%;
+    text-align: justify;
+}
+article .texto3 {
+    position: absolute;
+    color: white;
+    margin-left: 55%;
+    margin-top: 43%;
+    text-align: justify;
+}
+article .texto4 {
+    position: absolute;
+    color: white;
+    margin-left: 36%;
+    margin-top: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+article .texto5 {
+    position: absolute;
+    color: white;
+    margin-left: 72%;
+    margin-top: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+#imagen1 {
+    position: relative;
+    text-align: right;
+    z-index: -1;
+}
+#imagen1 figure img {
+    width: 50%;
+}
+#imagen1 figure figcaption {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 25%;
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    border-bottom: solid 2px white;
+    border-radius: 10px;
+}
+/*footer e iconos*/
+.contenedor {
+    margin-top: 100%;
+}
+.iconos {
+    position: absolute;
+    margin-left: 50%;
+  }
+  .iconos ul li {
+    list-style: none;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 50%;
+  }
+  .iconos ul li a {
+    color: #000;
+    font-size: 20px;
+    padding: 1em;
+    margin: 0px -18px;
+    align-items: center;
+    text-align: center;
+  }
+  .iconos ul li:first-child a {
+    margin: 0px -12px;
+  }
+  /*icon effects*/
+  .iconos ul li:hover{
+    background-color: #ea385000;
+    border: 5px solid #683180;
+  }
+  .iconos ul li a:hover {
+    color: #fff;
+  }
+  .texto {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 35%;
+  }
+  .texto p {
+    margin-bottom: 1.5em;
+    color: #fff;
+  }
+  /*circles*/
+.circle8 {
+  position: absolute;
+  background-color: #EA3850;
+  margin-top: 15%;
+  margin-left: 20%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.circle11 {
+    position: absolute;
+    margin-left: 80%;
+    background-color: #fff;
+    margin-top: 5%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.circle9 {
+  position: absolute;
+  background-color: #683180;
+  margin-top: 15%;
+  margin-left: 70%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  z-index: -1;
+}
